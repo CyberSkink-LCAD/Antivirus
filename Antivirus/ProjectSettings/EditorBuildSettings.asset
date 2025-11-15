@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IceAndFire.unity
+    guid: 257c6d5ead5a28b49b3c3899a161f36a
   m_configObjects: {}
