@@ -24,9 +24,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Reset the UI for the start of the game
-        blackScreenImage.color = Color.clear;
-        countText.text = "Collected: 0";
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+        {
+
+            // Reset the UI for the start of the game
+            blackScreenImage.color = Color.clear;
+            countText.text = "Collected: 0";
+        }
     }
 
     // Update is called once per frame
@@ -73,7 +77,8 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         Debug.Log("Game over!");
-        winScreen.SetActive(true);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //winScreen.SetActive(true);
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
     }
@@ -116,6 +121,6 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(0.8f);
 
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: a7faa3817ed00aa4cbe589e0611868f6
+  - enabled: 1
+    path: Assets/Scenes/DeadOfWinter.unity
+    guid: 0aabab82e5492d54294b26f023c38b94
+  - enabled: 1
     path: Assets/Scenes/IceAndFire.unity
     guid: 257c6d5ead5a28b49b3c3899a161f36a
+  - enabled: 1
+    path: Assets/Scenes/StrawberryMeadow.unity
+    guid: 4a1849f8de7210b48ba7c665a9e63860
   m_configObjects: {}
