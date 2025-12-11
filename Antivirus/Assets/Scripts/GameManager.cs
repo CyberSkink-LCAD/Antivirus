@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
             blackScreenImage.color = Color.clear;
             countText.text = "Collected: 0";
         }
+      
     }
 
     // Update is called once per frame
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
     {
         foreach (Collectible collectible in collectibles)
         {
+            
             if (collectible.isCollected)
             {
                 AddToCollectibleCount();
