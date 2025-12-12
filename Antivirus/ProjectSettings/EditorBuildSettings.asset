@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StrawberryMeadow.unity
     guid: 4a1849f8de7210b48ba7c665a9e63860
+  - enabled: 1
+    path: Assets/Scenes/Winscreen.unity
+    guid: 78375e7d7ad171b4296ad6e0b6e2eb45
   m_configObjects: {}
