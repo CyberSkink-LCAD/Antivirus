@@ -10004,7 +10004,7 @@ MonoBehaviour:
   blackScreenImage: {fileID: 1020141769}
   winScreen: {fileID: 1109849032}
   countText: {fileID: 389903476}
-  winCount: 10
+  winCount: 3
   collectibles:
   - {fileID: 1709245792}
   - {fileID: 923793495}
